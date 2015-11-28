@@ -15,6 +15,8 @@
 		18AEC5481C0A09F00060E587 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18AEC5461C0A09F00060E587 /* LaunchScreen.storyboard */; };
 		18AEC5531C0A09F10060E587 /* LDCWaterfallFlowViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 18AEC5521C0A09F10060E587 /* LDCWaterfallFlowViewTests.m */; };
 		18AEC55E1C0A09F10060E587 /* LDCWaterfallFlowViewUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 18AEC55D1C0A09F10060E587 /* LDCWaterfallFlowViewUITests.m */; };
+		18AEC56D1C0A11060060E587 /* LDCCollectionViewFlowLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 18AEC56C1C0A11060060E587 /* LDCCollectionViewFlowLayout.m */; };
+		18AEC5701C0A15AC0060E587 /* LDCCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 18AEC56F1C0A15AC0060E587 /* LDCCell.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +53,10 @@
 		18AEC5591C0A09F10060E587 /* LDCWaterfallFlowViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LDCWaterfallFlowViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		18AEC55D1C0A09F10060E587 /* LDCWaterfallFlowViewUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LDCWaterfallFlowViewUITests.m; sourceTree = "<group>"; };
 		18AEC55F1C0A09F10060E587 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		18AEC56B1C0A11060060E587 /* LDCCollectionViewFlowLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LDCCollectionViewFlowLayout.h; sourceTree = "<group>"; };
+		18AEC56C1C0A11060060E587 /* LDCCollectionViewFlowLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LDCCollectionViewFlowLayout.m; sourceTree = "<group>"; };
+		18AEC56E1C0A15AC0060E587 /* LDCCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LDCCell.h; sourceTree = "<group>"; };
+		18AEC56F1C0A15AC0060E587 /* LDCCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LDCCell.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +111,10 @@
 				18AEC53C1C0A09F00060E587 /* AppDelegate.m */,
 				18AEC53E1C0A09F00060E587 /* ViewController.h */,
 				18AEC53F1C0A09F00060E587 /* ViewController.m */,
+				18AEC56B1C0A11060060E587 /* LDCCollectionViewFlowLayout.h */,
+				18AEC56C1C0A11060060E587 /* LDCCollectionViewFlowLayout.m */,
+				18AEC56E1C0A15AC0060E587 /* LDCCell.h */,
+				18AEC56F1C0A15AC0060E587 /* LDCCell.m */,
 				18AEC5411C0A09F00060E587 /* Main.storyboard */,
 				18AEC5441C0A09F00060E587 /* Assets.xcassets */,
 				18AEC5461C0A09F00060E587 /* LaunchScreen.storyboard */,
@@ -270,7 +280,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				18AEC56D1C0A11060060E587 /* LDCCollectionViewFlowLayout.m in Sources */,
 				18AEC5401C0A09F00060E587 /* ViewController.m in Sources */,
+				18AEC5701C0A15AC0060E587 /* LDCCell.m in Sources */,
 				18AEC53D1C0A09F00060E587 /* AppDelegate.m in Sources */,
 				18AEC53A1C0A09F00060E587 /* main.m in Sources */,
 			);
@@ -496,6 +508,7 @@
 				18AEC5641C0A09F10060E587 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		18AEC5651C0A09F10060E587 /* Build configuration list for PBXNativeTarget "LDCWaterfallFlowViewTests" */ = {
 			isa = XCConfigurationList;
@@ -504,6 +517,7 @@
 				18AEC5671C0A09F10060E587 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		18AEC5681C0A09F10060E587 /* Build configuration list for PBXNativeTarget "LDCWaterfallFlowViewUITests" */ = {
 			isa = XCConfigurationList;
@@ -512,6 +526,7 @@
 				18AEC56A1C0A09F10060E587 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
